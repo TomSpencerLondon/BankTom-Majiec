@@ -22,7 +22,7 @@ namespace Bank.Tests
 
             // Then
             Assert.AreEqual("Date | Amount | Balance\n" +
-                            "18/08/2019 | 100.00 | 100.00", _accountService.PrintStatement());
+                            "18/08/2019 | 100 | 100", _accountService.PrintStatement());
         }
 
         [Test]
@@ -35,8 +35,8 @@ namespace Bank.Tests
             _accountService.Deposit(100);
             // Then
             Assert.AreEqual("Date | Amount | Balance\n" +
-                            "18/08/2019 | 100.00 | 200.00\n" +
-                            "18/08/2019 | 100.00 | 100.00", _accountService.PrintStatement());
+                            "18/08/2019 | 100 | 200\n" +
+                            "18/08/2019 | 100 | 100", _accountService.PrintStatement());
         }
     }
 }
