@@ -38,5 +38,22 @@ namespace Bank.Tests
                             "18/08/2019 | 100 | 200\n" +
                             "18/08/2019 | 100 | 100", _accountService.PrintStatement());
         }
+
+        [Test]
+        public void deposit_then_store_withdrawal()
+        {
+            // Given
+            _accountService.Deposit(1000);
+            
+            // When
+            _accountService.Withdraw(200);
+            
+            
+            // Then
+            Assert.AreEqual("Date | Amount | Balance\n" +
+                            "18/08/2019 | -200 | 800\n" +
+                            "18/08/2019 | 1000 | 1000", _accountService.PrintStatement());
+            
+        }
     }
 }

@@ -9,16 +9,16 @@ namespace Bank
     {
         private int currentBalance = 0;
 
-        List<Transaction> deposits = new List<Transaction>();
+        List<Transaction> transactions = new List<Transaction>();
         
         public const string Header = "Date | Amount | Balance";
         public String PrintStatement()
         {
             StringBuilder result = new StringBuilder();
 
-            deposits.Reverse();
+            transactions.Reverse();
             
-            deposits.ForEach(d =>
+            transactions.ForEach(d =>
             {
                 result.Append("18/08/2019 | ");
                 result.Append(d.Amount + " | ");
@@ -31,12 +31,13 @@ namespace Bank
         public void Deposit(int amount)
         {
             currentBalance += amount;
-            deposits.Add(new Transaction(amount, currentBalance));
+            transactions.Add(new Transaction(amount, currentBalance));
         }
 
         public void Withdraw(int amount)
         {
-            throw new NotImplementedException();
+            currentBalance -= amount;
+            transactions.Add(new Transaction(-amount, currentBalance));
         }
     }
 }
