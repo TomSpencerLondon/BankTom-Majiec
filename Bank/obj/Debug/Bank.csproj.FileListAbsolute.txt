@@ -1,0 +1,9 @@
+/Users/tomspencer/Desktop/BankMajiec/Bank/Bank/bin/Debug/Bank.dll
+/Users/tomspencer/Desktop/BankMajiec/Bank/Bank/bin/Debug/Bank.pdb
+/Users/tomspencer/Desktop/BankMajiec/Bank/Bank/bin/Debug/nunit.framework.dll
+/Users/tomspencer/Desktop/BankMajiec/Bank/Bank/bin/Debug/nunit.framework.xml
+/Users/tomspencer/Desktop/BankMajiec/Bank/Bank/obj/Debug/Bank.csprojAssemblyReference.cache
+/Users/tomspencer/Desktop/BankMajiec/Bank/Bank/obj/Debug/Bank.csproj.CoreCompileInputs.cache
+/Users/tomspencer/Desktop/BankMajiec/Bank/Bank/obj/Debug/Bank.csproj.CopyComplete
+/Users/tomspencer/Desktop/BankMajiec/Bank/Bank/obj/Debug/Bank.dll
+/Users/tomspencer/Desktop/BankMajiec/Bank/Bank/obj/Debug/Bank.pdb

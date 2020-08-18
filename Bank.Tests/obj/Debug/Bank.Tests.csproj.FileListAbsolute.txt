@@ -1,0 +1,11 @@
+/Users/tomspencer/Desktop/BankMajiec/Bank/Bank.Tests/bin/Debug/Bank.Tests.dll
+/Users/tomspencer/Desktop/BankMajiec/Bank/Bank.Tests/bin/Debug/Bank.Tests.pdb
+/Users/tomspencer/Desktop/BankMajiec/Bank/Bank.Tests/bin/Debug/Bank.dll
+/Users/tomspencer/Desktop/BankMajiec/Bank/Bank.Tests/bin/Debug/nunit.framework.dll
+/Users/tomspencer/Desktop/BankMajiec/Bank/Bank.Tests/bin/Debug/Bank.pdb
+/Users/tomspencer/Desktop/BankMajiec/Bank/Bank.Tests/bin/Debug/nunit.framework.xml
+/Users/tomspencer/Desktop/BankMajiec/Bank/Bank.Tests/obj/Debug/Bank.Tests.csprojAssemblyReference.cache
+/Users/tomspencer/Desktop/BankMajiec/Bank/Bank.Tests/obj/Debug/Bank.Tests.csproj.CoreCompileInputs.cache
+/Users/tomspencer/Desktop/BankMajiec/Bank/Bank.Tests/obj/Debug/Bank.Tests.csproj.CopyComplete
+/Users/tomspencer/Desktop/BankMajiec/Bank/Bank.Tests/obj/Debug/Bank.Tests.dll
+/Users/tomspencer/Desktop/BankMajiec/Bank/Bank.Tests/obj/Debug/Bank.Tests.pdb
