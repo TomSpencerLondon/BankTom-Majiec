@@ -1,3 +1,4 @@
+using Moq;
 using NUnit.Framework;
 
 namespace Bank.Tests.Acceptance
@@ -17,18 +18,24 @@ namespace Bank.Tests.Acceptance
 {
     public class AccountFeatureShould
     {
+        private Mock<DateProvider> _dateProviderMock;
         private AccountService _accountService;
         
         [SetUp()]
         public void Initialize()
         {
-            _accountService = new AccountService();
+            _dateProviderMock = new Mock<DateProvider>();
+            _accountService = new AccountService(_dateProviderMock.Object);
         }
         
         [Test]
         public void print_statement()
         {
             // given
+            _dateProviderMock.SetupSequence(dateProvider => dateProvider.getCurrentDate())
+                .Returns("10/01/2012")
+                .Returns("13/01/2012")
+                .Returns("14/01/2012");
             
             // when
             _accountService.Deposit(1000);
@@ -38,9 +45,9 @@ namespace Bank.Tests.Acceptance
             // then
             Assert.AreEqual(
                 "Date | Amount | Balance" +
-                "14/01/2012 | -500 | 2500" +
-                "13/01/2012 | 2000 | 3000" +
-                "10/01/2012 | 1000 | 1000",
+                "\n14/01/2012 | -500 | 2500" +
+                "\n13/01/2012 | 2000 | 3000" +
+                "\n10/01/2012 | 1000 | 1000",
                 _accountService.PrintStatement());
         }
     }

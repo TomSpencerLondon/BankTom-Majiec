@@ -43,6 +43,9 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="AccountService.cs" />
+        <Compile Include="BasicDateProvider.cs" />
+        <Compile Include="DateProvider.cs" />
+        <Compile Include="NotEnoughFundsOnTheAccountException.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="Transaction.cs" />
     </ItemGroup>

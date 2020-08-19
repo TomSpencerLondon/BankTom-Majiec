@@ -1,8 +1,17 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=304cf63b_002D811b_002D4be8_002Db1e6_002Df086503f9866/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="False" ContinuousTestingMode="0" FrameworkVersion="{x:Null}" IsLocked="False" Name="print_statement" PlatformMonoPreference="{x:Null}" PlatformType="{x:Null}" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::985758F8-4E39-4316-AF4D-2DF4C555DFA2::.NETFramework,Version=v4.8::Bank.Tests.Acceptance.AccountFeatureShould.print_statement&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::985758F8-4E39-4316-AF4D-2DF4C555DFA2::.NETFramework,Version=v4.8::Bank.Tests.AccountServiceShould.print_empty_statement&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::985758F8-4E39-4316-AF4D-2DF4C555DFA2::.NETFramework,Version=v4.8::Bank.Tests.AccountServiceShould&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\workspace\katas\BankTom-Majiec\packages\NUnit.3.5.0\lib\net45\nunit.framework.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=118b8a0d_002D77fd_002D43a4_002D9715_002Dc9de9df2c587/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AccountServiceShould" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::985758F8-4E39-4316-AF4D-2DF4C555DFA2::.NETFramework,Version=v4.8::Bank.Tests.AccountServiceShould&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::985758F8-4E39-4316-AF4D-2DF4C555DFA2::.NETFramework,Version=v4.8::Bank.Tests.Acceptance.AccountFeatureShould&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=304cf63b_002D811b_002D4be8_002Db1e6_002Df086503f9866/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="print_statement" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::985758F8-4E39-4316-AF4D-2DF4C555DFA2::.NETFramework,Version=v4.8::Bank.Tests.Acceptance.AccountFeatureShould.print_statement&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::985758F8-4E39-4316-AF4D-2DF4C555DFA2::.NETFramework,Version=v4.8::Bank.Tests.AccountServiceShould.print_empty_statement&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::985758F8-4E39-4316-AF4D-2DF4C555DFA2::.NETFramework,Version=v4.8::Bank.Tests.AccountServiceShould&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

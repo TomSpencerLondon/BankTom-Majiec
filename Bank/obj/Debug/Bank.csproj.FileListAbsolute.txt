@@ -7,3 +7,12 @@
 /Users/tomspencer/Desktop/BankMajiec/Bank/Bank/obj/Debug/Bank.csproj.CopyComplete
 /Users/tomspencer/Desktop/BankMajiec/Bank/Bank/obj/Debug/Bank.dll
 /Users/tomspencer/Desktop/BankMajiec/Bank/Bank/obj/Debug/Bank.pdb
+C:\workspace\katas\BankTom-Majiec\Bank\obj\Debug\Bank.dll
+C:\workspace\katas\BankTom-Majiec\Bank\obj\Debug\Bank.pdb
+C:\workspace\katas\BankTom-Majiec\Bank\bin\Debug\Bank.dll
+C:\workspace\katas\BankTom-Majiec\Bank\bin\Debug\Bank.pdb
+C:\workspace\katas\BankTom-Majiec\Bank\bin\Debug\nunit.framework.dll
+C:\workspace\katas\BankTom-Majiec\Bank\bin\Debug\nunit.framework.xml
+C:\workspace\katas\BankTom-Majiec\Bank\obj\Debug\Bank.csprojAssemblyReference.cache
+C:\workspace\katas\BankTom-Majiec\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+C:\workspace\katas\BankTom-Majiec\Bank\obj\Debug\Bank.csproj.CopyComplete
